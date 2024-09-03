@@ -1,0 +1,21 @@
+/* Chat bubble styles */
+.message-bubble {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+/* Sender's message bubble */
+.sender-bubble {
+  background-color: #128c7e !important;
+  color: #fff !important;
+  align-self: flex-end;
+}
+
+/* Receiver's message bubble */
+.receiver-bubble {
+  background-color: #7b7373 !important;
+  color: #333 !important;
+  align-self: flex-start;
+}
